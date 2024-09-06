@@ -1,8 +1,8 @@
 import React from 'react'
 
-const GroceryItem = () => {
+const GroceryItem = ({name,onClick}) => {
   return (
-    <div>GroceryItem</div>
+    <button onClick={onClick}>{name}</button>
   )
 }
 
